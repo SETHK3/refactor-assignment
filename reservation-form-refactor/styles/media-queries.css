@@ -1,0 +1,28 @@
+@media (max-width: 900px) {
+  .page-container {
+    flex-direction: column;
+  }
+
+  .page-container > .sidebar-wrapper {
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    justify-content: space-around;
+  }
+
+  .page-container > .sidebar-wrapper > .links-wrapper {
+    flex-direction: row;
+    width: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  .page-container > .sidebar-wrapper {
+    flex-direction: column;
+    padding-bottom: 15px;
+  }
+
+  .page-container > .sidebar-wrapper > .links-wrapper {
+    width: 65%;
+  }
+}

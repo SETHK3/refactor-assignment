@@ -1,0 +1,81 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.page-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.page-container > .sidebar-wrapper {
+  height: 100%;
+  width: 14%;
+  background-color: #87b0c4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-container > .sidebar-wrapper a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.page-container > .sidebar-wrapper a:hover {
+  color: #bc863a;
+  text-decoration: underline;
+}
+
+.page-container > .sidebar-wrapper > .logo-wrapper {
+  margin: 20px 0;
+  color: #bc863a;
+}
+
+.page-container > .sidebar-wrapper > .links-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 15%;
+}
+
+.page-container > .main-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  background-color: #cfd6d9;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.page-container > .main-content-container p:nth-of-type(1) {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+  justify-content: center;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.page-container > .footer-wrapper {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 120px;
+  background-color: #eff1f3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
